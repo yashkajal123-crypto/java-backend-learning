@@ -1,0 +1,22 @@
+# Build output
+target/
+out/
+*.class
+
+# IDEs
+.idea/
+.vscode/
+*.iml
+
+# Secrets / environment
+.env
+*.env
+application-local.properties
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Downloaded jars (get from Maven Central / vendor site)
+*.jar
+!.mvn/wrapper/*.jar
